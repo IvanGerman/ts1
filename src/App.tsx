@@ -6,6 +6,11 @@ import './App.css';
 let a:number | null = 10;
 a = null;
 
+let names: Array<string> = ['john', 'mary', 'bill'];
+alert(names[0].toUpperCase());
+
+let numbers: number[] = [1,2,3]; 
+
 
 function App() {
   return (
