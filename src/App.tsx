@@ -2,6 +2,11 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
+let a:number | null = 10;
+a = null;
+
+
 function App() {
   return (
     <div className="App">
